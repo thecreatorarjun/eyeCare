@@ -34,5 +34,6 @@ p{
 footer{
     background-color: #343A40;
     color: #ddd;
-    margin: .7em;
+    margin-left: .7em;
+    margin-right: .7em;
 }
