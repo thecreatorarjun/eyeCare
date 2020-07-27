@@ -1,0 +1,33 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: 1em; */
+}
+
+.wrapper > div{
+    background: #eee;
+    padding: .7em;
+    margin: .7em;
+}
+
+.wrapper > div:nth-child(odd){
+    background: #ddd;
+}
+nav{
+    margin-left: .7em;
+    margin-right: .7em;
+    margin-bottom: .7em;
+}
+
+p{
+    margin: .7em;
+}
+
+.container-fluid{
+    margin-top: 5em;
+}
+
+.symptoms li{
+    font-size: large;
+    font-weight: 500;
+}
